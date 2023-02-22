@@ -147,12 +147,12 @@ class EyelinkCNI():
         dv_coords = "DISPLAY_COORDS 0 0 %d %d" % (scn_width, scn_height)
         self.el_tracker.sendMessage(dv_coords)
 
-        calib_x0 = 212
-        calib_x1 = 512
-        calib_x2 = 812
-        calib_y0 = 134
-        calib_y1 = 384
-        calib_y2 = 634
+        calib_x0 = 400
+        calib_x1 = 960
+        calib_x2 = 1420
+        calib_y0 = 300
+        calib_y1 = 540
+        calib_y2 = 780
 
         calib_positions = "calibration_targets = %d,%d %d,%d %d,%d %d,%d %d,%d %d,%d %d,%d %d,%d %d,%d" % (
             calib_x1, calib_y1, 
